@@ -176,9 +176,9 @@ export default function Sidebar() {
                                     </span>
                                     <span
                                         className="text-[7px] font-medium tracking-widest uppercase
-                                        text-primary/70"
+                                        text-danger/70"
                                     >
-                                        Workspace
+                                        TELFORD
                                     </span>
                                 </div>
                             )}

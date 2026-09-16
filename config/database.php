@@ -102,6 +102,18 @@ return [
             ]) : [],
         ],
 
+        'tspi_qa' => [
+            'driver' => 'mysql',
+            'url' => env('QDB_URL'),
+            'host' => env('QDB_HOST', '127.0.0.1'),
+            'port' => env('QDB_PORT', '3306'),
+            'database' => env('QDB_DATABASE'),
+            'username' => env('QDB_USERNAME'),
+            'password' => env('QDB_PASSWORD'),
+            'unix_socket' => env('QDB_SOCKET'),
+            'charset' => env('QDB_CHARSET', 'utf8mb4'),
+            'collation' => env('QDB_COLLATION', 'utf8mb4_unicode_ci'),
+        ],
         // 'mariadb' => [
         //     'driver' => 'mariadb',
         //     'url' => env('DB_URL'),
